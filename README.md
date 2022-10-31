@@ -1,2 +1,2 @@
-# Upgradeble
-openzeppeling UUPS upragradeple ERC20 contracts with all scripts
+Upgradeadble
+openzeppeling UUPS Upgradeadble ERC20 contract with all scripts
