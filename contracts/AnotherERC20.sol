@@ -16,4 +16,8 @@ contract AnotherERC20 is Initializable, ERC20Upgradeable, UUPSUpgradeable, Ownab
     }
 
     function _authorizeUpgrade(address newImplementation) internal override onlyOwner {}
+
+    function Upgrade(address newImplementation) external onlyOwner {
+        _upgradeTo(newImplementation);
+    }
 }
